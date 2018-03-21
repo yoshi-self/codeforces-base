@@ -2,7 +2,7 @@ My working directory of Codeforces
 
 ## Features
 * Create a directory for a problem
-* Reetrieve input & output examples from the problem page
+* Retrieve input & output examples from the problem page
 * Test input & output with cftest.py
 
 ## Installation
@@ -47,7 +47,7 @@ Modify [ProblemID].cpp
 With -b option, it builds before test.
 
 ## Syntax of test.txt
-Its just a xml-like sequence of input and output
+It's just a xml-like sequence of input and output
 ```
 <input>
 1st input
