@@ -26,11 +26,11 @@ A directory named [ProblemID] will be created, which contains
 * [ProblemID].cpp
   * Copy of main.cpp
 * build.sh
-  * Shell script to compile source with ../g++cf
+  * Shell script to compile the source with ../g++cf
 * cftest.py
-  * Python script to test the program with example inputs & outputs
+  * Python script to test the program with input & output examples
 * test.txt
-  * example input & output pairs retrieved from Codeforces page
+  * input & output examples retrieved from Codeforces page
   
 ### 2. Write code
 Modify [ProblemID].cpp
