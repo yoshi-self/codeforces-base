@@ -1,0 +1,12 @@
+# ignore all
+*
+*/
+
+# allow
+!.gitignore
+!cfprepare.py
+!cftest.py
+!g++cf
+!build
+!main.cpp
+!README.md
