@@ -45,3 +45,26 @@ Modify [ProblemID].cpp
 ./cftest.py
 ```
 With -b option, it builds before test.
+
+## Syntax of test.txt
+Its just a xml-like sequence of input and output
+```
+<input>
+1st input
+</input>
+<output>
+expected output for 1st input
+</output>
+<input>
+2nd input
+</input>
+<output>
+expected output for 2nd input
+</output>
+<input>
+In case you don't want to test, just check output
+</input>
+<output>
+<nooutput />
+</output>
+```
