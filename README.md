@@ -25,7 +25,7 @@ or
 A directory named [ProblemID] will be created, which contains
 * [ProblemID].cpp
   * Copy of main.cpp
-* build.sh : do 
+* build.sh
   * Shell script to compile source with ../g++cf
 * cftest.py
   * Python script to test the program with example inputs & outputs
