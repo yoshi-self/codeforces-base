@@ -1,5 +1,10 @@
 My working directory of Codeforces
 
+## Features
+* Create a directory for a problem
+* Reetrieve input & output examples from the problem page
+* Test input & output with cftest.py
+
 ## Installation
 Clone this repository and rename the directory as you like
 
