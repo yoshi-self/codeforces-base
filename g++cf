@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# g++ with options for codeforces
+
+# codeforces' compile command
+# http://codeforces.com/blog/entry/79
+# g++.exe -static -DONLINE_JUDGE -lm -s -x c++ -Wl,--stack=268435456 -O2 -std=c++11 -D__USE_MINGW_ANSI_STDIO=0 -o {filename}.exe {file}
+
+g++ -lm -x c++ -O2 -std=c++11 -D__USE_MINGW_ANSI_STDIO=0 -DLOCAL -Wall -Wextra $*
