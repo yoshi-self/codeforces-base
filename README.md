@@ -9,16 +9,16 @@ My working directory of Codeforces
 Clone this repository and rename the directory as you like
 
 ## Usage
-NOTE: Term "Problem ID" refers [ContestID + ProblemIndex] like "50A"
+NOTE: The term "Problem ID" refers [ContestID + ProblemIndex] like "50A"
 
 ### 1. Create problem directory
 ```
-# by specify problem ID
+# by specifying problem ID
 ./cfprepare.py 50A
 ```
 or
 ```
-# by specify problem URL
+# by specifying problem URL
 ./cfprepare.py http://codeforces.com/problemset/problem/50/A
 ```
 
