@@ -62,7 +62,7 @@ expected output for 1st input
 expected output for 2nd input
 </output>
 <input>
-In case you don't want to test, just check output
+In case you don't want to test but just want to check output
 </input>
 <output>
 <nooutput />
