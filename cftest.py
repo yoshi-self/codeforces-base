@@ -40,7 +40,8 @@ class CodeforcesTest():
         dirname = os.path.basename(os.path.dirname(os.path.realpath(__file__)))
         filename = dirname + ".cpp"
         print('##### Compiling %s #####' % (filename))
-        subprocess.run([command, filename])
+        completed_process = subprocess.run([command, filename])
+        return completed_process.returncode
 
 if __name__ == '__main__':
     build_flag = False
@@ -50,7 +51,10 @@ if __name__ == '__main__':
     try:
         cftest = CodeforcesTest()
         if build_flag:
-            cftest.build()
+            returncode = cftest.build()
+            if returncode != 0:
+                print('ERROR: Failed to compile')
+                sys.exit(1)
         print('')
         cftest.run()
     except Exception as e:
