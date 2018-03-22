@@ -1,4 +1,4 @@
 #!/bin/bash
 problem_id=$(echo $PWD | rev | cut -d '/' -f 1 | rev)
-echo "compile ${problem_id}"
+echo "compile ${problem_id}.cpp"
 ../g++cf "${problem_id}.cpp"
