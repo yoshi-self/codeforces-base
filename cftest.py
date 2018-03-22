@@ -40,7 +40,6 @@ class CodeforcesTest():
         dirname = os.path.basename(os.path.dirname(os.path.realpath(__file__)))
         filename = dirname + ".cpp"
         print('##### Compiling %s #####' % (filename))
-        #print('%s %s' % (command, filename))
         subprocess.run([command, filename])
 
 if __name__ == '__main__':
